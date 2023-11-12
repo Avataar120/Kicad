@@ -1,0 +1,92 @@
+2023-11-12 19:52:54.061 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2023-11-12 19:52:55.609 [ForkJoinPool.commonPool-worker-1] INFO  New version available: v1.9.0
+2023-11-12 19:54:14.378 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.dsn'...
+2023-11-12 19:54:15.624 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.rules'...
+2023-11-12 19:54:29.498 [AWT-EventQueue-0] WARN  Network.insert_net_class: clearance class not found at '5V_Digital'
+2023-11-12 19:54:57.717 [Thread-35] INFO  Starting auto-routing...
+2023-11-12 19:55:06.335 [Thread-35] INFO  Auto-routing was completed in 8,62 seconds.
+2023-11-12 19:55:06.444 [Thread-35] INFO  Starting route optimization on 1 thread...
+2023-11-12 19:55:06.450 [Thread-35] INFO  Route optimization was completed in 0,00 seconds.
+2023-11-12 19:56:10.866 [Thread-63] INFO  Starting auto-routing...
+2023-11-12 20:00:14.100 [Thread-63] INFO  Auto-routing was completed in 4 minute(s) 3,23 seconds.
+2023-11-12 20:00:14.210 [Thread-63] INFO  Starting route optimization on 1 thread...
+2023-11-12 20:00:14.211 [Thread-63] INFO  Route optimization was completed in 0,00 seconds.
+2023-11-12 20:00:19.292 [Thread-86] INFO  Starting auto-routing...
+2023-11-12 20:03:47.544 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.553 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.557 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.560 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.563 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.564 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.565 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.567 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.568 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.569 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.570 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.571 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.573 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.574 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.575 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.577 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.579 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:47.584 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.194 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.200 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.203 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.207 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.209 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.212 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.213 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.215 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.221 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.223 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.225 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.226 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.227 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.229 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:03:50.230 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-12 20:47:36.729 [Thread-86] ERROR Cannot invoke "app.freerouting.board.RoutingBoard.finish_autoroute()" because the return value of "app.freerouting.interactive.BoardHandling.get_routing_board()" is null
+java.lang.NullPointerException: Cannot invoke "app.freerouting.board.RoutingBoard.finish_autoroute()" because the return value of "app.freerouting.interactive.BoardHandling.get_routing_board()" is null
+	at app.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:92) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:56) [freerouting.jar:unspecified]
+2023-11-12 20:48:16.246 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.dsn'...
+2023-11-12 20:48:17.068 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.rules'...
+2023-11-12 20:48:19.817 [AWT-EventQueue-0] WARN  Network.insert_net_class: clearance class not found at '5V_Digital'
+2023-11-12 20:48:31.658 [Thread-123] INFO  Starting auto-routing...
+2023-11-12 20:53:16.332 [Thread-123] WARN  IntPoint: p_y is out of range
+2023-11-12 20:53:16.333 [Thread-123] WARN  IntPoint: p_y is out of range
+2023-11-12 20:53:16.334 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.334 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.334 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.335 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.335 [Thread-123] WARN  ShapeSearchTree.overlaps_with_clearance: p_shape is not bounded
+2023-11-12 20:53:16.339 [Thread-123] WARN  IntPoint: p_y is out of range
+2023-11-12 20:53:16.340 [Thread-123] WARN  IntPoint: p_y is out of range
+2023-11-12 20:53:16.340 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.341 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.341 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.342 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.346 [Thread-123] WARN  IntPoint: p_y is out of range
+2023-11-12 20:53:16.346 [Thread-123] WARN  IntPoint: p_y is out of range
+2023-11-12 20:53:16.346 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.347 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.347 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.347 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.348 [Thread-123] WARN  IntPoint: p_y is out of range
+2023-11-12 20:53:16.348 [Thread-123] WARN  IntPoint: p_y is out of range
+2023-11-12 20:53:16.349 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.349 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.349 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.350 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.350 [Thread-123] WARN  IntPoint: p_y is out of range
+2023-11-12 20:53:16.351 [Thread-123] WARN  IntPoint: p_y is out of range
+2023-11-12 20:53:16.351 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.351 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.352 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.352 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:53:16.353 [Thread-123] WARN  IntPoint: p_y is out of range
+2023-11-12 20:53:16.353 [Thread-123] WARN  IntPoint: p_x is out of range
+2023-11-12 20:54:09.701 [Thread-123] ERROR Cannot invoke "app.freerouting.board.RoutingBoard.finish_autoroute()" because the return value of "app.freerouting.interactive.BoardHandling.get_routing_board()" is null
+java.lang.NullPointerException: Cannot invoke "app.freerouting.board.RoutingBoard.finish_autoroute()" because the return value of "app.freerouting.interactive.BoardHandling.get_routing_board()" is null
+	at app.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:92) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:56) [freerouting.jar:unspecified]
