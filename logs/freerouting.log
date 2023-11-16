@@ -90,3 +90,1293 @@ java.lang.NullPointerException: Cannot invoke "app.freerouting.board.RoutingBoar
 java.lang.NullPointerException: Cannot invoke "app.freerouting.board.RoutingBoard.finish_autoroute()" because the return value of "app.freerouting.interactive.BoardHandling.get_routing_board()" is null
 	at app.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:92) [freerouting.jar:unspecified]
 	at app.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:56) [freerouting.jar:unspecified]
+2023-11-16 10:58:53.250 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2023-11-16 10:58:53.344 [main] INFO  Settings were loaded from freerouting.json
+2023-11-16 10:58:54.657 [ForkJoinPool.commonPool-worker-1] INFO  New version available: v1.9.0
+2023-11-16 10:58:57.814 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.dsn'...
+2023-11-16 10:58:58.898 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.rules'...
+2023-11-16 10:59:01.254 [AWT-EventQueue-0] WARN  Network.insert_net_class: clearance class not found at '5V_Digital'
+2023-11-16 10:59:02.818 [Thread-41] INFO  Starting auto-routing...
+2023-11-16 10:59:03.166 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.171 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.184 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.188 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.192 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.196 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.199 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.207 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.216 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.272 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.276 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.280 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.288 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.295 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.299 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.302 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.307 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:03.309 [Thread-41] WARN  FloatLine: Parameter is null
+2023-11-16 10:59:08.005 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot invoke "app.freerouting.geometry.planar.TileShape.max_width()" because "via_shape" is null
+	at app.freerouting.autoroute.MazeSearchAlgo.room_shape_is_thick(MazeSearchAlgo.java:1092) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:329) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:267) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:197) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:123) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:432) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:306) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_passes(BatchAutorouter.java:173) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:90) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:56) [freerouting.jar:unspecified]
+2023-11-16 10:59:15.498 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot invoke "app.freerouting.geometry.planar.TileShape.max_width()" because "via_shape" is null
+	at app.freerouting.autoroute.MazeSearchAlgo.room_shape_is_thick(MazeSearchAlgo.java:1092) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:329) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:267) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:197) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:123) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:432) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:306) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_passes(BatchAutorouter.java:173) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:90) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:56) [freerouting.jar:unspecified]
+2023-11-16 10:59:17.499 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot invoke "app.freerouting.geometry.planar.TileShape.max_width()" because "via_shape" is null
+	at app.freerouting.autoroute.MazeSearchAlgo.room_shape_is_thick(MazeSearchAlgo.java:1092) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:329) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:267) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:197) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:123) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:432) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:306) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_passes(BatchAutorouter.java:173) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:90) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:56) [freerouting.jar:unspecified]
+2023-11-16 10:59:17.768 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: Cannot invoke "app.freerouting.geometry.planar.TileShape.max_width()" because "via_shape" is null
+	at app.freerouting.autoroute.MazeSearchAlgo.room_shape_is_thick(MazeSearchAlgo.java:1092) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.expand_to_room_doors(MazeSearchAlgo.java:329) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.occupy_next_element(MazeSearchAlgo.java:267) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.MazeSearchAlgo.find_connection(MazeSearchAlgo.java:197) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.AutorouteEngine.autoroute_connection(AutorouteEngine.java:123) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_item(BatchAutorouter.java:432) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_pass(BatchAutorouter.java:306) [freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_passes(BatchAutorouter.java:173) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:90) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:56) [freerouting.jar:unspecified]
+2023-11-16 10:59:18.915 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 10:59:19.699 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 10:59:31.818 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 10:59:45.823 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 10:59:52.175 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 10:59:55.230 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 10:59:57.292 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 10:59:57.717 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:04.353 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:07.592 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:09.950 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:10.520 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:11.056 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:16.345 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:21.518 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:23.665 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:24.085 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:29.030 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:32.301 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:34.513 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:34.933 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:39.844 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:43.058 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:45.244 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:45.690 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:50.630 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:53.831 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:55.973 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:00:56.386 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:01.349 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:04.643 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:06.826 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:07.243 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:12.085 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:15.363 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:17.564 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:17.991 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:22.909 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:26.102 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:28.271 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:28.725 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:33.746 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:37.029 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:39.207 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:39.642 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:44.643 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:47.994 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:50.261 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:50.695 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:55.659 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:01:58.904 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:01.142 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:01.578 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:06.638 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:09.855 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:12.042 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:12.465 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:17.465 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:20.808 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:23.022 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:23.446 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:28.460 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:31.751 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:33.996 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:34.430 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:39.509 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:42.730 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:44.946 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:45.396 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:50.472 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:53.746 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:55.943 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:02:56.370 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:01.454 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:04.774 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:07.017 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:07.441 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:12.527 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:15.754 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:17.990 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:18.432 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:23.523 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:26.788 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:28.972 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:29.400 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:34.512 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:37.825 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:40.039 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:40.469 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:45.526 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:48.820 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:51.045 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:51.486 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:56.630 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:03:59.874 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:02.116 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:02.560 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:07.758 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:10.984 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:13.165 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:13.594 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:18.712 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:22.052 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:24.258 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:24.691 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:29.782 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:33.082 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:35.380 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:35.816 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:41.134 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:44.532 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:46.800 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:47.245 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:52.477 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:55.781 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:57.996 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:04:58.431 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:03.772 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:07.112 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:09.429 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:09.865 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:14.956 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:18.320 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:20.731 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:21.175 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:26.430 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:29.803 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:32.030 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:32.476 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:37.708 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:41.007 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:43.284 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:05:55.365 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:06:47.135 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:07:04.359 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:07:15.815 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:07:18.046 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:07:40.320 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:07:57.510 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:08:09.213 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:08:11.450 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:08:33.637 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:08:51.142 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:09:02.659 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:09:04.895 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:09:27.081 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:09:44.666 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:09:56.300 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:09:58.534 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:10:20.888 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:10:37.923 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:10:49.334 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:10:51.588 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:11:13.781 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:11:31.205 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:11:42.781 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:11:45.098 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:02.083 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:05.455 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:07.682 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:08.100 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:13.189 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:16.416 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:18.632 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:19.048 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:24.191 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:27.392 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:29.593 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:30.014 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:35.271 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:38.491 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:40.754 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:41.170 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:49.855 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:55.846 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:12:59.952 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:13:00.760 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:13:09.060 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:13:18.345 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:13:30.097 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:13:32.354 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:13:55.107 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:14:12.738 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:14:24.543 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:14:26.812 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:14:49.699 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:15:07.336 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:15:19.335 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:15:21.592 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:15:44.352 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:16:01.804 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:16:13.731 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:16:16.007 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:16:38.969 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:16:56.905 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:17:08.819 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:17:11.116 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:17:33.916 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:17:51.438 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:18:03.251 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:18:05.516 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:18:28.596 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:18:46.446 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:18:58.387 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:00.636 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:23.526 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:33.687 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:35.911 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:36.326 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:41.631 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:44.938 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:47.162 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:47.578 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:52.657 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:55.944 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:58.153 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:19:58.568 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:20:05.650 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:20:10.655 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:20:14.084 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:20:14.741 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:20:22.390 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:20:27.212 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:20:30.827 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:20:33.102 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:20:56.331 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:21:13.841 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:21:25.707 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:21:27.964 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:21:51.218 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:22:08.666 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:22:20.511 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:22:22.808 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:22:45.817 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:22:54.335 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:22:56.564 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:22:56.989 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:02.191 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:05.479 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:07.712 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:08.133 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:13.422 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:16.641 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:18.889 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:19.305 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:26.598 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:31.865 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:35.525 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:36.258 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:43.877 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:48.889 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:55.873 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:23:58.135 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:24:21.306 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:24:38.631 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:24:50.343 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:24:52.610 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:25:16.286 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:25:33.842 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:25:45.732 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:25:47.990 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:26:11.271 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:26:28.742 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:26:40.528 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:26:42.785 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:27:06.017 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:27:23.939 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:27:36.062 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:27:38.318 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:27:58.442 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:01.762 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:04.000 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:04.428 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:09.684 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:12.940 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:15.149 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:15.569 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:20.844 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:24.073 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:26.306 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:26.728 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:32.061 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:35.400 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:37.607 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:38.031 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:43.370 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:47.001 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:50.763 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:51.509 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:28:59.625 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:29:05.179 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:29:08.684 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:29:09.390 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:29:19.660 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:29:36.992 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:29:48.703 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:29:50.972 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:30:15.223 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:30:32.829 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:30:44.820 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:30:47.087 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:02.710 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:06.007 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:08.258 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:08.685 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:14.124 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:17.359 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:19.568 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:19.991 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:25.353 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:28.625 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:32.183 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:32.933 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:40.956 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:46.324 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:48.614 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:49.043 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:54.226 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:57.584 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:31:59.887 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:00.322 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:05.589 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:08.880 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:11.084 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:11.526 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:19.360 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:27.494 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:32.746 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:33.752 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:42.827 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:46.122 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:48.436 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:48.875 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:54.229 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:57.594 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:32:59.865 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:00.312 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:05.886 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:09.930 [Thread-41] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:10.228 [Thread-41] INFO  Auto-routing was completed in 34 minute(s) 7,41 seconds.
+2023-11-16 11:33:10.343 [Thread-41] INFO  Starting route optimization on 1 thread...
+2023-11-16 11:33:10.347 [Thread-41] INFO  Route optimization was completed in 0,00 seconds.
+2023-11-16 11:33:17.360 [Thread-53] INFO  Starting auto-routing...
+2023-11-16 11:33:20.408 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:23.871 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:26.387 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:26.856 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:32.393 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:35.805 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:38.207 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:38.680 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:44.314 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:47.689 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:50.045 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:50.495 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:56.179 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:33:59.561 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:34:01.828 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:34:02.273 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:34:07.952 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:34:11.560 [Thread-53] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:34:11.573 [Thread-53] ERROR Cannot invoke "app.freerouting.board.RoutingBoard.finish_autoroute()" because the return value of "app.freerouting.interactive.BoardHandling.get_routing_board()" is null
+java.lang.NullPointerException: Cannot invoke "app.freerouting.board.RoutingBoard.finish_autoroute()" because the return value of "app.freerouting.interactive.BoardHandling.get_routing_board()" is null
+	at app.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:92) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:56) [freerouting.jar:unspecified]
+2023-11-16 11:40:19.138 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.dsn'...
+2023-11-16 11:40:19.683 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.rules'...
+2023-11-16 11:40:20.928 [AWT-EventQueue-0] WARN  Network.insert_net_class: clearance class not found at '5V_Digital'
+2023-11-16 11:40:21.899 [Thread-93] INFO  Starting auto-routing...
+2023-11-16 11:40:21.961 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:21.962 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:21.967 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:21.968 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:21.970 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:22.093 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:22.094 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:22.095 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:22.096 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:22.097 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:22.100 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:22.103 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:22.106 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:22.108 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:40:25.885 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:40:25.917 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:40:27.142 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:40:27.380 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:40:28.400 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:40:28.508 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:40:30.968 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:40:31.613 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:40:32.107 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:40:35.816 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:40:37.795 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:40:53.152 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:05.162 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:07.011 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:41:08.663 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:10.883 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:11.305 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:11.591 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:15.279 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:16.630 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:18.022 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:19.691 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:19.743 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:21.620 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:23.232 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:25.257 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:27.198 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:30.547 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:30.932 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:31.338 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:32.531 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:41:35.367 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:42.937 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:44.381 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:45.769 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:47.525 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:49.247 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:51.269 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:52.953 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:55.097 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:56.145 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:56.736 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:57.151 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:58.581 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:41:59.902 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:01.066 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:42:03.753 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:07.595 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:09.091 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:10.644 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:12.443 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:14.232 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:16.306 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:18.000 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:20.157 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:20.985 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:21.280 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:21.479 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:21.950 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:23.390 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:24.561 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:42:25.762 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:28.330 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:29.684 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:31.093 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:32.839 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:34.627 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:36.608 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:38.324 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:40.488 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:41.612 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:42.008 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:42.239 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:43.703 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:44.824 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:46.002 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:42:50.090 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:51.384 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:52.706 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:54.473 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:56.284 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:42:58.384 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:00.119 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:02.338 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:03.365 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:03.634 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:03.799 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:05.241 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:06.671 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:07.841 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:43:11.731 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:13.058 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:14.486 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:16.250 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:18.111 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:20.143 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:21.884 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:24.108 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:24.733 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:25.107 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:25.450 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:26.924 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:28.308 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:29.510 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:43:33.514 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:34.809 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:36.101 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:37.848 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:39.659 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:41.731 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:43.525 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:45.798 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:46.459 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:46.832 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:47.176 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:48.665 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:50.059 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:51.234 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:43:56.135 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:57.455 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:43:58.763 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:00.521 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:02.377 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:04.462 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:06.232 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:08.427 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:09.613 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:10.092 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:10.488 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:11.045 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:12.204 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:13.376 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:44:17.310 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:18.754 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:20.156 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:21.860 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:23.599 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:25.612 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:27.361 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:29.565 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:30.168 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:30.556 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:30.838 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:32.277 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:33.688 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:34.881 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:44:37.675 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:40.178 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:41.439 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:42.693 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:44.407 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:46.235 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:48.312 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:50.107 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:52.306 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:54.569 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:54.677 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:57.136 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:44:57.298 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:45:01.154 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:02.594 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:03.938 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:05.691 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:07.385 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:09.123 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:11.108 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:12.809 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:14.984 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:15.550 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:20.295 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:45:23.317 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:25.892 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:27.296 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:28.677 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:30.481 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:32.372 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:34.668 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:36.923 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:38.865 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:39.136 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:40.884 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:40.976 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:45:45.047 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:46.534 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:47.985 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:50.119 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:52.093 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:54.330 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:57.605 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:58.471 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:58.675 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:45:59.102 [Thread-93] ERROR AutorouteEngine.autoroute_connection: Exception in maze_search_algo.find_connection
+java.lang.NullPointerException: null
+2023-11-16 11:46:00.230 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:46:06.169 [Thread-93] WARN  FloatLine: Parameter is null
+2023-11-16 11:46:06.210 [Thread-93] INFO  Auto-routing was completed in 5 minute(s) 44,31 seconds.
+2023-11-16 11:46:06.315 [Thread-93] INFO  Starting route optimization on 1 thread...
+2023-11-16 11:46:06.316 [Thread-93] INFO  Route optimization was completed in 0,00 seconds.
+2023-11-16 12:16:07.724 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2023-11-16 12:16:07.802 [main] INFO  Settings were loaded from freerouting.json
+2023-11-16 12:16:09.300 [ForkJoinPool.commonPool-worker-1] INFO  New version available: v1.9.0
+2023-11-16 12:16:12.360 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.dsn'...
+2023-11-16 12:16:17.434 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.dsn'...
+2023-11-16 12:16:39.562 [Thread-61] INFO  Starting auto-routing...
+2023-11-16 12:16:39.949 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:39.958 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:39.969 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:39.981 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:39.993 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:40.187 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:40.191 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:40.197 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:40.202 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:40.206 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:40.216 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:40.226 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:40.233 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:16:40.237 [Thread-61] WARN  FloatLine: Parameter is null
+2023-11-16 12:17:44.851 [Thread-61] WARN  There were only 12,60 changes in the last 20 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2023-11-16 12:17:56.765 [Thread-61] WARN  There were only 6,12 changes in the last 40 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2023-11-16 12:18:08.529 [Thread-61] WARN  There were only 4,62 changes in the last 60 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2023-11-16 12:18:20.401 [Thread-61] WARN  There were only 4,00 changes in the last 80 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2023-11-16 12:18:32.182 [Thread-61] WARN  There were only 4,00 changes in the last 100 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2023-11-16 12:18:43.915 [Thread-61] WARN  There were only 4,00 changes in the last 120 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2023-11-16 12:18:55.597 [Thread-61] WARN  There were only 4,00 changes in the last 140 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2023-11-16 12:19:07.448 [Thread-61] WARN  There were only 4,00 changes in the last 160 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2023-11-16 12:19:19.257 [Thread-61] WARN  There were only 4,00 changes in the last 180 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2023-11-16 12:19:31.034 [Thread-61] WARN  There were only 4,00 changes in the last 200 passes, so it's very likely that autorouter can't improve the result much further. It is recommended to stop it and finish the board manually.
+2023-11-16 12:19:31.035 [Thread-61] WARN  There was so little change during the recent passes that autorouter will be stopped now.
+2023-11-16 12:19:31.036 [Thread-61] INFO  Auto-routing was completed in 2 minute(s) 51,47 seconds.
+2023-11-16 12:19:31.147 [Thread-61] INFO  Starting route optimization on 1 thread...
+2023-11-16 12:27:58.814 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.816 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.820 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.823 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.824 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.825 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.826 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.827 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.828 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.829 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.829 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.830 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.831 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.832 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.833 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.833 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.834 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.835 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.836 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:27:58.837 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.045 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.047 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.047 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.050 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.060 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.062 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.063 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.063 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.064 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.067 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.068 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.069 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.069 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.070 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.070 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.071 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.072 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.072 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.073 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.073 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.074 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.074 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.075 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.076 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.076 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.077 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.077 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.078 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.078 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.079 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.079 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.080 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.080 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.081 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.081 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.082 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.083 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.084 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:28:00.084 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-11-16 12:44:21.808 [Thread-61] ERROR Cannot invoke "app.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "app.freerouting.interactive.BoardHandling.get_settings()" is null
+java.lang.NullPointerException: Cannot invoke "app.freerouting.interactive.Settings.get_trace_pull_tight_accuracy()" because the return value of "app.freerouting.interactive.BoardHandling.get_settings()" is null
+	at app.freerouting.autoroute.BatchAutorouter.remove_tails(BatchAutorouter.java:352) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchAutorouter.autoroute_passes_for_optimizing_item(BatchAutorouter.java:118) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchOptRoute.opt_route_item(BatchOptRoute.java:259) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchOptRoute.opt_route_pass(BatchOptRoute.java:161) ~[freerouting.jar:unspecified]
+	at app.freerouting.autoroute.BatchOptRoute.optimize_board(BatchOptRoute.java:113) ~[freerouting.jar:unspecified]
+	at app.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:123) [freerouting.jar:unspecified]
+	at app.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:56) [freerouting.jar:unspecified]
