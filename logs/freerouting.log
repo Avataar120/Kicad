@@ -1380,3 +1380,120 @@ java.lang.NullPointerException: Cannot invoke "app.freerouting.interactive.Setti
 	at app.freerouting.autoroute.BatchOptRoute.optimize_board(BatchOptRoute.java:113) ~[freerouting.jar:unspecified]
 	at app.freerouting.interactive.BatchAutorouterThread.thread_action(BatchAutorouterThread.java:123) [freerouting.jar:unspecified]
 	at app.freerouting.interactive.InteractiveActionThread.run(InteractiveActionThread.java:56) [freerouting.jar:unspecified]
+2023-12-01 08:52:47.939 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2023-12-01 08:52:49.573 [ForkJoinPool.commonPool-worker-1] INFO  New version available: v1.9.0
+2023-12-01 08:53:03.428 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.dsn'...
+2023-12-01 08:53:10.605 [Thread-26] INFO  Starting auto-routing...
+2023-12-01 08:53:11.124 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.130 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.155 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.225 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.230 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.235 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.253 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.273 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.296 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.315 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.338 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.358 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.396 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.692 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.743 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.858 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.887 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:11.924 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:12.118 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:12.253 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:12.314 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-01 08:53:57.879 [Thread-26] INFO  Auto-routing was completed in 47,27 seconds.
+2023-12-01 08:53:57.991 [Thread-26] INFO  Starting route optimization on 1 thread...
+2023-12-01 08:54:13.256 [AWT-EventQueue-0] INFO  Saving 'Ava_Shield.ses'...
+2023-12-01 08:54:20.146 [Thread-26] INFO  Route optimization was completed in 22,16 seconds.
+2023-12-01 08:54:23.373 [AWT-EventQueue-0] INFO  Saving 'Ava_Shield.ses'...
+2023-12-01 08:54:25.165 [AWT-EventQueue-0] INFO  Saving 'Ava_Shield.rules'...
+2023-12-01 08:55:58.182 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.dsn'...
+2023-12-01 08:55:59.000 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.rules'...
+2023-12-01 08:56:05.904 [Thread-67] INFO  Starting auto-routing...
+2023-12-01 08:56:06.014 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.016 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.025 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.043 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.045 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.047 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.054 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.064 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.074 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.084 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.097 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.108 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.128 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.244 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.269 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.327 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.341 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.356 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.479 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.543 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:06.571 [Thread-67] WARN  FloatLine: Parameter is null
+2023-12-01 08:56:54.376 [Thread-67] INFO  Auto-routing was completed in 48,47 seconds.
+2023-12-01 08:56:54.480 [Thread-67] INFO  Starting route optimization on 1 thread...
+2023-12-01 08:58:35.468 [Thread-67] INFO  Route optimization was completed in 1 minute(s) 40,99 seconds.
+2023-12-02 21:04:23.223 [main] INFO  Freerouting v1.9.0 (build-date: 2023-10-30)
+2023-12-02 21:04:23.308 [main] INFO  Settings were loaded from freerouting.json
+2023-12-02 21:04:24.635 [ForkJoinPool.commonPool-worker-1] INFO  New version available: v1.9.0
+2023-12-02 21:04:27.829 [AWT-EventQueue-0] INFO  Opening 'Ava_Shield.dsn'...
+2023-12-02 21:04:34.486 [Thread-26] INFO  Starting auto-routing...
+2023-12-02 21:04:34.896 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-02 21:04:34.907 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-02 21:04:34.944 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-02 21:04:34.948 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-02 21:04:35.032 [Thread-26] WARN  FloatLine: Parameter is null
+2023-12-02 21:05:15.202 [Thread-26] INFO  Auto-routing was completed in 40,71 seconds.
+2023-12-02 21:05:15.315 [Thread-26] INFO  Starting route optimization on 1 thread...
+2023-12-02 21:24:44.271 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.271 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.272 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.272 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.273 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.274 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.276 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.276 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.277 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.277 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.278 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.278 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.279 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.279 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.280 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.282 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.297 [Thread-26] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.297 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.300 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.301 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.302 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.305 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.306 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.307 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.307 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.308 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.308 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.309 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.310 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.310 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.311 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.312 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.313 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.313 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.314 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.315 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.316 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.317 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.318 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:24:44.318 [AWT-EventQueue-0] WARN  NetIncompletes.calculate_net_items: too many items
+2023-12-02 21:25:33.155 [Thread-26] INFO  Route optimization was completed in 20 minute(s) 17,84 seconds and it improved the design by ~50,79%.
+2023-12-02 21:25:34.866 [Thread-53] INFO  Starting auto-routing...
+2023-12-02 21:25:34.923 [Thread-53] INFO  Auto-routing was completed in 0,06 seconds.
+2023-12-02 21:25:35.033 [Thread-53] INFO  Starting route optimization on 1 thread...
+2023-12-02 22:24:55.948 [Thread-53] INFO  Route optimization was completed in 59 minute(s) 20,91 seconds and it improved the design by ~50,02%.
+2023-12-02 22:45:28.095 [AWT-EventQueue-0] INFO  Saving 'Ava_Shield.ses'...
+2023-12-02 22:45:30.806 [AWT-EventQueue-0] INFO  Saving 'Ava_Shield.rules'...
